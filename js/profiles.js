@@ -1,11 +1,11 @@
 const profileDefaultImages = [
-    "/Test/assets/img/profiles/defaults/profile-default-img-blob.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-carl.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-daurin.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-kane.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-shadow_king.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-skull_knight.png",
-    "/Test/assets/img/profiles/defaults/profile-default-img-witch.png"
+    "/assets/img/profiles/defaults/profile-default-img-blob.png",
+    "/assets/img/profiles/defaults/profile-default-img-carl.png",
+    "/assets/img/profiles/defaults/profile-default-img-daurin.png",
+    "/assets/img/profiles/defaults/profile-default-img-kane.png",
+    "/assets/img/profiles/defaults/profile-default-img-shadow_king.png",
+    "/assets/img/profiles/defaults/profile-default-img-skull_knight.png",
+    "/assets/img/profiles/defaults/profile-default-img-witch.png"
 ];
 
 const shuffledProfileImages = [...profileDefaultImages]

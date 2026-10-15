@@ -1,4 +1,4 @@
-const BASE_PATH = "/Test/";
+const BASE_PATH = "/";
 const LOTTIE_PATH = `${BASE_PATH}assets/lottie/`;
 
 
