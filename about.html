@@ -11,10 +11,11 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
     </script>
 
-    <script src="/Test/js/main.js" defer></script>
-    <script src="/Test/js/lottie.js" defer></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/lottie.js" defer></script>
+    <script src="/js/profiles.js" defer></script>
 
-    <link rel="stylesheet" href="/Test/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
 
 </head>
 
@@ -26,11 +27,11 @@
 
     <header class="hero">
 
-        <img src="/Test/assets/img/banner.png" alt="Studio Banner" class="hero-banner">
+        <img src="/assets/img/banner.png" alt="Studio Banner" class="hero-banner">
 
         <div class="hero-overlay">
 
-            <lottie-player id="bananusAnim" src="/Test/assets/lottie/bananus/bananus_balance.json"
+            <lottie-player id="bananusAnim" src="/assets/lottie/bananus/bananus_balance.json"
                 background="transparent" speed="1" autoplay>
             </lottie-player>
 
@@ -48,11 +49,11 @@
 
     <nav class="navbar">
 
-        <a href="/Test/index.html">Home</a>
+        <a href="/index.html">Home</a>
 
-        <a href="/Test/games.html">Games</a>
+        <a href="/games.html">Games</a>
 
-        <a href="/Test/about.html">About</a>
+        <a href="/about.html">About</a>
 
     </nav>
 
@@ -95,20 +96,18 @@
 
             <section class="game-card hover-scale bg-white">
 
-                <img src="/Test/assets/img/profile-default-img.png" alt="Felix">
+                <img class="profile-img" src="/assets/img/profiles/david.png" alt="David Gölzner">
 
                 <div class="game-card-content">
 
-                    <h2>Dev 1</h2>
+                    <h2>David Gölzner</h2>
 
-                    <span class="status development">
-                        OG
-                    </span>
-
-                    <p>
-                        Description
-                    </p>
-
+                    <div class="profile-tags">
+                        <p class="status alpha">Developer</p>
+                        <p class="status bugfixing">Programmer</p>
+                        <p class="status released">Animator</p>
+                        <p class="status archived">OG</p>
+                    </div>
                 </div>
 
             </section>
@@ -117,20 +116,17 @@
 
             <section class="game-card hover-scale bg-white">
 
-                <img src="/Test/assets/img/profile-default-img.png" alt="Felix">
+                <img class="profile-img" src="/assets/img/profiles/slav.png" alt="Slavino Boyadzhiev">
 
                 <div class="game-card-content">
 
-                    <h2>Dev 2</h2>
+                    <h2>Slavino Boyadzhiev</h2>
 
-                    <span class="status prototype">
-                        Artist
-                    </span>
+                    <div class="profile-tags">
+                        <p class="status prototype">Artist</p>
+                        <p class="status archived">OG</p>
 
-                    <p>
-                        Description
-                    </p>
-
+                    </div>
                 </div>
 
             </section>
@@ -139,20 +135,71 @@
 
             <section class="game-card hover-scale bg-white">
 
-                <img src="/Test/assets/img/profile-default-img.png" alt="Felix">
+                <img class="profile-img" alt="Klaus Mühlbachler">
 
                 <div class="game-card-content">
 
-                    <h2>Dev 3</h2>
+                    <h2>Klaus Mühlbachler</h2>
 
-                    <span class="status bugfixing">
-                        Programmer
-                    </span>
+                    <div class="profile-tags">
+                        <p class="status alpha">Developer</p>
+                        <p class="status bugfixing">Programmer</p>
+                        <p class="status archived">OG</p>
 
-                    <p>
-                        Description
-                    </p>
+                    </div>
+                </div>
 
+            </section>
+
+            <!-- Team Member -->
+
+            <section class="game-card hover-scale bg-white">
+
+                <img class="profile-img" src="/assets/img/profiles/patrick.png" alt="Patrick Emerich">
+
+                <div class="game-card-content">
+
+                    <h2>Patrick Emerich</h2>
+
+                    <div class="profile-tags">
+                        <p class="status development">Audio Engineer</p>
+                        <p class="status archived">OG</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Team Member -->
+
+            <section class="game-card hover-scale bg-white">
+
+                <img class="profile-img" alt="Benjamin Fuchs">
+
+                <div class="game-card-content">
+
+                    <h2>Benjamin Fuchs</h2>
+
+                    <div class="profile-tags">
+                        <p class="status development">Audio Engineer</p>
+                        <p class="status archived">OG</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Team Member -->
+
+            <section class="game-card hover-scale bg-white">
+
+                <img class="profile-img" alt="Stefan Peitl">
+
+                <div class="game-card-content">
+
+                    <h2>Stefan Peitl</h2>
+
+                    <div class="profile-tags">
+                        <p class="status prototype">Artist</p>
+                    </div>
                 </div>
 
             </section>

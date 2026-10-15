@@ -28,3 +28,9 @@
 
     padding: var(--space-xl);
 }
+
+.profile-tags {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 8px;
+}

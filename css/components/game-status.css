@@ -46,3 +46,15 @@
     background: #992323;
     color: white;
 }
+
+
+.status.playtesting {
+    background: #610069;
+    color: white;
+}
+
+
+.status.alpha {
+    background: #1fabb5;
+    color: white;
+}
